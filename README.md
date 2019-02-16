@@ -28,79 +28,73 @@ Optimisations des graphismes du jeu (à faire en dernier après la configuration
 
 
 1.  Aller dans le dossier "WTF" de World of Warcraft  se trouvant ici "C:\Program Files (x86)\World of Warcraft\WTF" ou si le dossier n'éxiste pas, créer un raccourci de votre wow.exe et faite clique droit -> raccourci -> cible et rajouter un " -console" à la fin de la cible. Ensuite lancer le raccourci et passer votre clavier en ENG et appuyer sur la touche "²" de votre clavier située à gauche de "&" ou "1" en haut de votre clavier.
-
-
 2.  Modifier le fichier "Config.wtf" avec ces infos ou utiliser la console et ajouter l'intégralité de ces lignes une par une et en une fois en étant connecté sur votre personnage  : 
-
-- anisotropic 16
-- baseMip 0
-- detailDoodadAlpha 100
-- DistCull 888
-- doodadAnim 1
-- farclip 777
-- ffx 1
-- ffxDeath 1
-- ffxGlow 1
-- ffxRectangle 1 
-- footstepBias 1.0
-- frillDensity 256
-- gxColorBits 24
-- gxDepthBits 24
-- horizonfarclip 2112
-- lod 0
-- lodDist 250
-- mapObjLightLOD 2
-- mapObjOverbright 1
-- mapShadows 1
-- MaxLights 4
-- maxLOD 3
-- nearClip 0.33
-- occlusion 1
-- particleDensity 1
-- pixelShaders 1
-- shadowLevel 0
-- showfootprints 1
-- showLowDetail 0
-- showShadow 1
-- showSimpleDoodads 0
-- SkyCloudLOD 1
-- SkySunGlare 1
-- SmallCull 0.01
-- specular 1
-- spellEffectLevel 2
-- texLodBias -1
-- textureLodDist 777
-- trilinear 1
-- unitDrawDist 300
-- waterLOD 0
-- waterParticulates 1
-- waterRipples 1
-- waterSpecular 1
-- waterWaves 1
-- weatherDensity 3
-- gxMultisample 8 (1 is no anti-alising, 2 is 2x, 4 is 4x, 8 is 8x)
-- gxMultisampleQuality 1
-- gxResolution <your monitor's native resolution> e.g. gxResolution 1920x1080
-- showCull (re-enter this command until the output in the console says "Terrain culling disabled")
-- Enter the command gxrestart to reinitialize the graphics engine and apply the changes.
-
-
+    - anisotropic 16
+    - baseMip 0
+    - detailDoodadAlpha 100
+    - DistCull 888
+    - doodadAnim 1
+    - farclip 777
+    - ffx 1
+    - ffxDeath 1
+    - ffxGlow 1
+    - ffxRectangle 1 
+    - footstepBias 1.0
+    - frillDensity 256
+    - gxColorBits 24
+    - gxDepthBits 24
+    - horizonfarclip 2112
+    - lod 0
+    - lodDist 250
+    - mapObjLightLOD 2
+    - mapObjOverbright 1
+    - mapShadows 1
+    - MaxLights 4
+    - maxLOD 3
+    - nearClip 0.33
+    - occlusion 1
+    - particleDensity 1
+    - pixelShaders 1
+    - shadowLevel 0
+    - showfootprints 1
+    - showLowDetail 0
+    - showShadow 1
+    - showSimpleDoodads 0
+    - SkyCloudLOD 1
+    - SkySunGlare 1
+    - SmallCull 0.01
+    - specular 1
+    - spellEffectLevel 2
+    - texLodBias -1
+    - textureLodDist 777
+    - trilinear 1
+    - unitDrawDist 300
+    - waterLOD 0
+    - waterParticulates 1
+    - waterRipples 1
+    - waterSpecular 1
+    - waterWaves 1
+    - weatherDensity 3
+    - gxMultisample 8 (1 is no anti-alising, 2 is 2x, 4 is 4x, 8 is 8x)
+    - gxMultisampleQuality 1
+    - gxResolution <your monitor's native resolution> e.g. gxResolution 1920x1080
+    - showCull (re-enter this command until the output in the console says "Terrain culling disabled")
+    - Enter the command gxrestart to reinitialize the graphics engine and apply the changes.
 3.  Maximum smoothness :
-
-- bspcache 1
-- gxTripleBuffer 1
-- gxVSync 1
-- M2UsePixelShaders 1
-- M2UseZFill 1
-- M2UseClipPlanes 1
-- M2UseThreads 1
-- M2UseShaders 1
-- M2BatchDoodads 1
-- gxFixLag 1 (fixes mouse lag at expense of frames per second)
-- timingModeOverride 1 (uses GetTickCount) 2 (uses RDTSC) 3 (uses QueryPerformanceCounter) 4 (uses timeGetTime). Experiment with which timing method gives you the smoothest gameplay. Set the value, then restart the game completely. Apparently RDTSC is the most precise timing method.
-- gxRefresh <your monitor's maximum refresh rate> e.g. gxRefresh 60 (for 60hz monitor)
-- M2Faster <CPU physical cores - 1> (Dual-core = 1, Tri-core = 2, Quad-core and above = 3)
-- Enter the command gxrestart to reinitialize the graphics engine and apply the changes.
+    - bspcache 1
+    - gxTripleBuffer 1
+    - gxVSync 1
+    - M2UsePixelShaders 1
+    - M2UseZFill 1
+    - M2UseClipPlanes 1
+    - M2UseThreads 1
+    - M2UseShaders 1
+    - M2BatchDoodads 1
+    - gxFixLag 1 (fixes mouse lag at expense of frames per second)
+    - timingModeOverride 1 (uses GetTickCount) 2 (uses RDTSC) 3 (uses QueryPerformanceCounter) 4 (uses timeGetTime). Experiment with which timing method gives you the smoothest gameplay. Set the value, then restart the game completely. Apparently RDTSC is the most precise timing method.
+    - gxRefresh <your monitor's maximum refresh rate> e.g. gxRefresh 60 (for 60hz monitor)
+    - M2Faster <CPU physical cores - 1> (Dual-core = 1, Tri-core = 2, Quad-core and above = 3)
+    - Enter the command gxrestart to reinitialize the graphics engine and apply the changes.
 
 
 ## HD textures
