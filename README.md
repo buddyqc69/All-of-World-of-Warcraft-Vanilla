@@ -120,7 +120,6 @@ Et sinon la liste des addons compatiblent Vanilla si vous êtes du genre full cu
 
 ## Serveur local
 1.  Télécharger le serveur WoW Vanilla si le lien est mort c'est qu'il y a eu une MAJ dans ce cas référez-vous à la source : https://www.mediafire.com/file/ypud7vgvcppgads/Vanilla+bropack+v13.rar
-
 2. Extraire là ou vous voulez, exemple de chez moi à la racine de mon disque SSD "C:"
 3. Démarrer le serveur :
     1. Lancer le fichier batch "Start apache.bat"
