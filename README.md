@@ -104,8 +104,9 @@ Optimisations des graphismes du jeu (à faire en dernier après la configuration
 
 
 ## HD textures
+Source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
+
 Normalement pas de problème majeur avec les textures HD simplement le jeu ne supporte pas les déconnexions et reconnexions rapides et vous pouvez avoir un message d'erreur de WoW.
-- source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
 
 
 ## Addons
