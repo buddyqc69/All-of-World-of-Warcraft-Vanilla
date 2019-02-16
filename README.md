@@ -104,10 +104,8 @@ Optimisations des graphismes du jeu (à faire en dernier après la configuration
 
 
 ## HD textures
-Extraire cette archive : https://drive.google.com/open?id=1Y6RVJy4DbtR4QOA-Ps7J7uRFALVw3Q63 dans le dossier "Data" de World of Warcraft comme ceci "C:\Program Files (x86)\World of Warcraft\Data" 
-
 Normalement pas de problème majeur avec les textures HD simplement le jeu ne supporte pas les déconnexions et reconnexions rapides et vous pouvez avoir un message d'erreur de WoW.
-*source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
+- source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
 
 
 ## Addons
