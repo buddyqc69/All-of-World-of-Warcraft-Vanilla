@@ -1,31 +1,25 @@
 # All-of-World-of-Warcraft-Vanilla
 Contient un lien vers le client World of Warcraft Vanilla, la realmlist de World of Mamene, la liste des bons addons, les configurations graphiques optimales, des textures HD, les guides pratiques et les explications pour monter son serveur.
 
-
 ## Le client World of Warcraft
 1.  Télécharger le client du jeu en anglais est plus pratique pour la compatibilité avec les addons [ici](https://pydio.dedikam.com/public/b2c756)
 2.  Renommer le dossier téléchargé par "World of Warcraft"
 3.  Déplacer ce dossier dans votre dossier "Program Files (x86)" comme ceci "C:\Program Files (x86)\World of Warcraft"  
 
-
 ## Serveur
 1.  Vous inscrire sur un serveur privé
 2.  Télécharger la realmlist du serveur et remplacer celle déjà existante dans votre dossier de jeu : "C:\Program Files (x86)\World of Warcraft"
 
-
 ## Reshade : les effets spéciales
 Pour rendre votre jeu plus beau avec des effets utiliser Reshade  : https://reshade.me/
 Vous devez installer la librairie pour OpenGL et ensuite sélectionner les effets à installer. Perso j'utilise seulement trois effets suivant : 
-
 - FakeHDR régler à 1 ou à 1,500 en fonction de votre config
 - Lumasharpen
 - Vibrance
 
-
 ## Configurations : les graphismes mamene
 Optimisations des graphismes du jeu (à faire en dernier après la configuration des réglages in Game) :
 *source : https://forum.nostalrius.org/viewtopic.php?f=32&t=1100
-
 
 1.  Aller dans le dossier "WTF" de World of Warcraft  se trouvant ici "C:\Program Files (x86)\World of Warcraft\WTF" ou si le dossier n'éxiste pas, créer un raccourci de votre wow.exe et faite clique droit -> raccourci -> cible et rajouter un " -console" à la fin de la cible. Ensuite lancer le raccourci et passer votre clavier en ENG et appuyer sur la touche "²" de votre clavier située à gauche de "&" ou "1" en haut de votre clavier.
 2.  Modifier le fichier "Config.wtf" avec ces infos ou utiliser la console et ajouter l'intégralité de ces lignes une par une et en une fois en étant connecté sur votre personnage  : 
@@ -96,27 +90,22 @@ Optimisations des graphismes du jeu (à faire en dernier après la configuration
     - M2Faster <CPU physical cores - 1> (Dual-core = 1, Tri-core = 2, Quad-core and above = 3)
     - Enter the command gxrestart to reinitialize the graphics engine and apply the changes.
 
-
 ## HD textures
-Source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
-
-Normalement pas de problème majeur avec les textures HD simplement le jeu ne supporte pas les déconnexions et reconnexions rapides et vous pouvez avoir un message d'erreur de WoW.
+- Source : http://model-changing.net/blogs/blog/65-release-improved-models-for-112/
+- Normalement pas de problème majeur avec les textures HD simplement le jeu ne supporte pas les déconnexions et reconnexions rapides et vous pouvez avoir un message d'erreur de WoW.
 
 
 ## Addons
-Les addons servent à modifier votre interface de WoW, pour cela allez dans votre dossier de jeu : "C:\Program Files (x86)\World of Warcraft\Interface\AddOns" et placer y les addons que vous aurez téléchargé.
-Je vous conseil l'interface de Frostadamus : https://www.youtube.com/watch?v=29S283Ak2iQ
+Les addons servent à modifier votre interface de WoW, pour cela allez dans votre dossier de jeu : "C:\Program Files (x86)\World of Warcraft\Interface\AddOns" et placer y les addons que vous aurez téléchargé :
 
-En All in one "pfui", complet mais pas très sexy dans le sens ou ça vient vraiment casser l'univers graphique de WoW, par contre y'a tous les addons et le mec qui les développe est un génie : https://shagu.org/
-
-Et sinon la liste des addons compatiblent Vanilla si vous êtes du genre full custom : https://legacy-wow.com/Vanilla-addons/
-
+- Je vous conseil l'interface de Frostadamus : https://www.youtube.com/watch?v=29S283Ak2iQ
+- En All in one "pfui", complet mais pas très sexy dans le sens ou ça vient vraiment casser l'univers graphique de WoW, par contre y'a tous les addons et le mec qui les développe est un génie : https://shagu.org/
+- Et sinon la liste des addons compatiblent Vanilla si vous êtes du genre full custom : https://legacy-wow.com/Vanilla-addons/
 
 ## Guides : HELP ! c'est ou ? c'est quoi ? c'est comment ?
 - Le Guide du fast farmer chinois 1 to 60 en 4 jours mamene  : https://www.joanasworld.com/
 - Les métiers dans WoW : https://forums.jeuxonline.info/showthread.php?t=443002
 - Talent Calculator : https://classicdb.ch/?talent#L
-
 
 ## Serveur local
 1.  Télécharger le serveur WoW Vanilla si le lien est mort c'est qu'il y a eu une MAJ dans ce cas référez-vous à la source : https://www.mediafire.com/file/ypud7vgvcppgads/Vanilla+bropack+v13.rar
@@ -127,11 +116,9 @@ Et sinon la liste des addons compatiblent Vanilla si vous êtes du genre full cu
     3. Démarrage du monde "realmd.exe"
     4. Démarrage du serveur "mangosd.exe"
 
-Par défaut vous pouvez vous connectez au serveur avec ces identifiants : admin/admin
+- Par défaut vous pouvez vous connectez au serveur avec ces identifiants : admin/admin
 Ou vous pouvez vous créer un nouveau compte admin dans la console mangosd.exe comme ceci : 
 account create <name> <password>
 account set gmlevel <name> 6
-
-Il vous faudra ensuite changer la realmlist de votre jeu par : 127.0.0.1 pour vous connecter à votre serveur WoW Vanilla en local.
-
-Vous pouvez accéder à votre base de donner avec un logiciel de gestion de base comme HeidiSQL ou autre avec les identifiants suivants : root/root
+- Il vous faudra ensuite changer la realmlist de votre jeu par : 127.0.0.1 pour vous connecter à votre serveur WoW Vanilla en local.
+- Vous pouvez accéder à votre base de donner avec un logiciel de gestion de base comme HeidiSQL ou autre avec les identifiants suivants : root/root
