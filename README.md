@@ -18,8 +18,7 @@ Vous devez installer la librairie pour OpenGL et ensuite sélectionner les effet
 - Vibrance
 
 ## Configurations : les graphismes mamene
-Optimisations des graphismes du jeu (à faire en dernier après la configuration des réglages in Game) :
-*source : https://forum.nostalrius.org/viewtopic.php?f=32&t=1100
+Optimisations des graphismes du jeu (à faire en dernier après la configuration des réglages in Game) : https://forum.nostalrius.org/viewtopic.php?f=32&t=1100
 
 1.  Aller dans le dossier "WTF" de World of Warcraft  se trouvant ici "C:\Program Files (x86)\World of Warcraft\WTF" ou si le dossier n'éxiste pas, créer un raccourci de votre wow.exe et faite clique droit -> raccourci -> cible et rajouter un " -console" à la fin de la cible. Ensuite lancer le raccourci et passer votre clavier en ENG et appuyer sur la touche "²" de votre clavier située à gauche de "&" ou "1" en haut de votre clavier.
 2.  Modifier le fichier "Config.wtf" avec ces infos ou utiliser la console et ajouter l'intégralité de ces lignes une par une et en une fois en étant connecté sur votre personnage  : 
@@ -115,10 +114,9 @@ Les addons servent à modifier votre interface de WoW, pour cela allez dans votr
     2. Lancer le fichier batch "Start MySQL.bat"
     3. Démarrage du monde "realmd.exe"
     4. Démarrage du serveur "mangosd.exe"
-
-- Par défaut vous pouvez vous connectez au serveur avec ces identifiants : admin/admin
+4. Par défaut vous pouvez vous connectez au serveur avec ces identifiants : admin/admin
 Ou vous pouvez vous créer un nouveau compte admin dans la console mangosd.exe comme ceci : 
 account create <name> <password>
 account set gmlevel <name> 6
-- Il vous faudra ensuite changer la realmlist de votre jeu par : 127.0.0.1 pour vous connecter à votre serveur WoW Vanilla en local.
-- Vous pouvez accéder à votre base de donner avec un logiciel de gestion de base comme HeidiSQL ou autre avec les identifiants suivants : root/root
+5. Il vous faudra ensuite changer la realmlist de votre jeu par : 127.0.0.1 pour vous connecter à votre serveur WoW Vanilla en local.
+6. Vous pouvez accéder à votre base de donner avec un logiciel de gestion de base comme HeidiSQL ou autre avec les identifiants suivants : root/root
